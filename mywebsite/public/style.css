@@ -1,0 +1,44 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Merriweather', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Body Styles */
+body {
+    background-color: rgba(34, 35, 40, 0.996); /* Slightly transparent dark background */
+    color: rgb(250, 250, 167); /* Soft yellow text */
+    overflow-y: scroll; /* Allow vertical scrolling */
+    font-size: 16px; /* Base font size for consistent sizing */
+    line-height: 1.5; /* Makes text more readable */
+    -webkit-font-smoothing: antialiased; /* Smooths font rendering */
+    -moz-osx-font-smoothing: grayscale; /* Ensures smooth rendering on MacOS */
+}
+
+/* Global Link Style */
+a {
+    text-decoration: none;
+    color: inherit; /* Keeps text color consistent */
+}
+
+/* Handling Scrollbar (Optional) */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling behavior */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 15px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px; /* Further reduce font size for very small screens */
+    }
+}
